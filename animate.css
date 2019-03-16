@@ -1,0 +1,114 @@
+
+@keyframes leafRotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  
+@keyframes pigJump {
+    0% {
+      top:170px;
+    }
+    50% {
+        top:110px;
+      }
+    100% {
+     top:170px;
+    }
+  }
+  
+@keyframes leftarmchange {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(20deg);
+      }
+    100% {
+        transform: rotate(0deg);
+    }
+  }
+
+  
+@keyframes rightarmchange {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-20deg);
+      }
+    100% {
+        transform: rotate(0deg);
+    }
+  }
+
+  
+@keyframes leftlegchange {
+    0% {
+        transform: rotateZ(0deg); 
+    }
+    50% {
+        transform: rotateZ(20deg); 
+      }
+    100% {
+        transform: rotateZ(0deg); 
+    }
+  }
+
+@keyframes rightlegchange {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(-20deg);
+      }
+    100% {
+        transform: rotateZ(0deg);
+    }
+  }
+ 
+@keyframes windmillchange {
+    0% {
+        left: 200px;
+        top: 100px;
+        transform: rotate(20deg);
+    }
+    50% {
+        left: 225px;
+        top: 84px;
+        transform: rotate(30deg);
+      }
+    100% {
+        left: 200px;
+        top: 100px;
+        transform: rotate(20deg);
+    }
+  }
+ 
+  
+@keyframes shadowchange {
+    0% {
+        top: 43px;
+        left: 231px;
+        width: 192px;
+        height: 30px;
+    }
+    50% {
+        top: 43px;
+        left: 251px;
+        width: 142px;
+        height: 22px;
+      }
+    100% {
+        top: 43px;
+        left: 231px;
+        width: 192px;
+        height: 30px;
+    }
+  }
+  
